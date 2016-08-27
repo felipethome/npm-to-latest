@@ -45,10 +45,12 @@ Options:
  
 ## Usage examples:
 
-to-latest  
-to-latest --deps  
-to-latest --devdeps  
-to-latest --nobackup  
+```
+to-latest
+to-latest --deps
+to-latest --devdeps
+to-latest --nobackup
+```
 
 ## LICENSE
 
