@@ -99,8 +99,8 @@ function filterDependencies(dependencies, props, exclude) {
 }
 
 function printHelp() {
-  console.log('--deps                        update just the dependencies');
-  console.log('--devdeps                     update just the devDependencies');
+  console.log('--deps                        update dependencies');
+  console.log('--devdeps                     update devDependencies');
   console.log('--nobackup                    do not make a package.json backup');
   console.log('--restore <file path>         restore the package.json and reinstall the packages');
   console.log('--packages <packages list>    just update the packages in the list');
@@ -153,8 +153,7 @@ function performUpdate(packageJSON, args) {
   }
 
   if (!args.deps && !args.devdeps) {
-    update(deps, '--save');
-    update(devDeps, '--save-dev');
+    console.error('You must specify --deps or --devdeps or both');
   }
 }
 
