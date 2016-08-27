@@ -30,5 +30,6 @@
   },
   "bin": {
     "to-latest": "index.js"
-  }
+  },
+  "preferGlobal": true
 }

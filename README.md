@@ -17,11 +17,7 @@ This script requires node v4 or higher.
 
     npm install -g npm-to-latest
 
-If you don't want to install this package globally don't forget to add a script in your package.json file:
-
-    "scripts": {
-      "to-latest": "to-latest"
-    }
+Install the package globally!
 
 ## Options
 
