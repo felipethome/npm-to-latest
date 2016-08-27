@@ -1,0 +1,4 @@
+*.log
+.eslintrc
+node_modules
+package-backup-*.json

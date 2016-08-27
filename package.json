@@ -1,0 +1,34 @@
+{
+  "name": "npm-to-latest",
+  "version": "1.0.0",
+  "description": "Update NPM packages to their latest version",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipethome/npm-to-latest.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-packages",
+    "npm-version",
+    "npm-major-updates",
+    "npm-latest-package-version"
+  ],
+  "author": "Felipe Thomé",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/felipethome/npm-to-latest/issues"
+  },
+  "homepage": "https://github.com/felipethome/npm-to-latest#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0"
+  },
+  "bin": {
+    "to-latest": "index.js"
+  }
+}
