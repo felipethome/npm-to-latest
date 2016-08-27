@@ -1,13 +1,10 @@
 # NPM To Latest
 
-Update NPM packages to their latest version.
-
 Update NPM packages from the package.json file in the current folder to their latest version and save these changes.
 
 Each time the script is executed a backup of the current package.json file is created with the filename having the format: `package-json-${Date.now()}`
 
-**Use with caution!** Update packages to their latest version can break your
-project.
+Use with caution. Update packages to their latest version can break your project.
 
 ## Requirements
 
@@ -17,7 +14,7 @@ This script requires node v4 or higher.
 
     npm install -g npm-to-latest
 
-Install the package globally!
+Prefer to install the package globally.
 
 ## Options
 
