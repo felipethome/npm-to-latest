@@ -1,6 +1,6 @@
 {
   "name": "npm-to-latest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Update NPM packages to their latest version",
   "main": "index.js",
   "repository": {
