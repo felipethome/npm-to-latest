@@ -2,7 +2,7 @@
 
 **Not maintained anymore**
 
-Update NPM packages from the package.json file in the current folder to their latest version (not repescting semver, so caution) and save these changes. A backup package.json file is created at each update.
+Update NPM packages from the package.json file in the current folder to their latest version (not respecting semver, so caution) and save these changes. A backup package.json file is created at each update.
 
 ## Requirements
 
