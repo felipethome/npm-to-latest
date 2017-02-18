@@ -13,6 +13,17 @@
  * Use with caution! Update packages to their latest version can break your
  * project.
  *
+ * Options:
+ * --deps                         Update the dependencies
+ * --devdeps                      Update the devDependencies
+ * --nobackup                     Do not make a package.json backup
+ * --restore [file path]          Restore the package.json and reinstall the
+ *                                packages. The file path is optional, and if
+ *                                omitted the script will try to find the most
+ *                                recent package.json backup file.
+ * --packages [packages list]     Just update the packages in the list
+ * --exclude [packages list]      Update all packages except the ones in the list
+ *
  * Usage examples:
  * node npm-update
  * node npm-update --deps
